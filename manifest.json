@@ -1,0 +1,23 @@
+{
+    "name": "harper",
+    "short_name": "harper",
+    "version": "1.0.0",
+    "description": "记录问题",
+    "manifest_version": 2,
+    "icons": [
+      {
+        "src": "/images/timg2.jpg",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/timg2.jpg",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#3eaf7c"
+  }
