@@ -26,7 +26,7 @@ module.exports = {
     ],
     themeConfig: {
       lastUpdated: '上次更新时间',
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       displayAllHeaders: true,
       logo: '/images/timg2.jpg',
       nav: [
@@ -59,6 +59,7 @@ module.exports = {
         { text: '其他', items: [
           { text: "H5", link: "/other/H5/" },
           { text: "Vant", link: "/other/vant/" },
+          { text: "现代解析", link: "/other/现代前端解析" },
         ]},
         {
           text: "插件",
@@ -71,7 +72,8 @@ module.exports = {
           items: [
             { text: "test", link: "/vue/test" },
            ]
-        }
+        },
+        { text: 'React', link: '/react/' },
       ],
       sidebar: [
         {
@@ -101,7 +103,7 @@ module.exports = {
          },
          {
           title: "其他",
-          children: ['/other/H5/','/other/vant/']
+          children: ['/other/H5/','/other/vant/','/other/现代前端解析']
          },
          {
           title: "插件",
@@ -110,6 +112,10 @@ module.exports = {
          {
           title: "Vue",
           children: ["/vue/test" ]
+         },
+         {
+          title: "React",
+          children: ["/react/" ]
          }
       ]
     },
